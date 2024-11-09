@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+  <h1 style="color: #f9a825;" id="heading">Resume form</h1>
+  <form id="form">
+    <h2>Personal details</h2>
+    <hr style="margin-bottom: 20px;">
+
+    <!------------------------------- Personal details --------------------------------------->
+    <div class="form-group">
+      <label class="label" for="name">Name:</label>
+      <input class="input" type="text" id="name" required>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="desig">Designation:</label>
+      <input class="input" type="text" id="desig" required>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="Phone">Phone:</label>
+      <input class="input" type="tel" id="Phone" required>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="email">Email:</label>
+      <input class="input" type="email" id="email" required>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="add">Address:</label>
+      <input class="input" type="text" id="add" required>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="LinkedIn">LinkedIn:</label>
+      <input class="input" type="text" id="LinkedIn" required>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="pic">Profile Picture:</label>
+      <input class="input" type="file" id="pic" required>
+    </div>
+
+
+
+    <!------------------------------- Education --------------------------------------->
+    <h2>Education</h2>
+    <hr style="margin-bottom: 20px;">
+
+    <div id="eduDiv">
+      <div class="eduDetails">
+        <div class="form-group">
+          <label class="label" for="pass">Passing Year:</label>
+          <input class="input" type="number" id="pass" required>
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="deg">Degree:</label>
+          <input class="input" type="text" id="deg" required>
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="uni">Institution:</label>
+          <input class="input" type="text" id="uni" required>
+        </div>
+      </div>
+
+      <div id="eduDetails2" class="hideUnhide">
+        <div class="form-group">
+          <label class="label" for="pass">Passing Year:</label>
+          <input class="input" type="number" id="pass2">
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="deg">Degree:</label>
+          <input class="input" type="text" id="deg2">
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="uni">Institution:</label>
+          <input class="input" type="text" id="uni2">
+        </div>
+      </div>
+    </div>
+
+    <div class="AddBtn"><button type="button" id="addEdu">Add More</button></div>
+
+
+
+    <!------------------------------- Expertise --------------------------------------->
+    <h2>Expertise</h2>
+    <hr style="margin-bottom: 20px;">
+    <div id="expertiseDiv">
+      <div class="expertiseDetails">
+
+        <div class="form-group">
+          <label class="label" for="skill1">Skill:</label>
+          <input class="input mb-20" type="text" id="skill1" required>
+          <label class="label" for="skill_level1">Proficiency level:</label>
+          <input class="input mb-20" type="number" id="skill_level1" required>
+        </div>
+
+        <div id="expertiseDetails2" class="hideUnhide">
+          <div class="form-group">
+            <label class="label" for="skill2">Skill:</label>
+            <input class="input mb-20" type="text" id="skill2">
+            <label class="label" for="skill_level2">Proficiency level:</label>
+            <input class="input mb-20" type="number" id="skill_level2">
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+
+      <div class="AddBtn"><button type="button" id="addSkill">Add More</button></div>
+
+
+
+      <!------------------------------- Language --------------------------------------->
+      <h2>Language</h2>
+      <hr style="margin-bottom: 20px;">
+      <div class="form-group">
+        <label class="label" for="lang">Language 1:</label>
+        <input class="input mb-20" type="text" id="lang" required>
+        <label class="label" for="lang">Language 2:</label>
+        <input class="input" type="text" id="lang2" required>
+      </div>
+
+
+      <!------------------------------- Experience --------------------------------------->
+      <h2>Experience</h2>
+      <hr style="margin-bottom: 20px;">
+      <div class="form-group">
+        <label class="label" for="styear">start Year:</label>
+        <input class="input mb-20" type="number" id="styear" required>
+
+        <label class="label" for="endyear">End Year:</label>
+        <input class="input mb-20" type="number" id="endyear" required>
+
+        <label class="label" for="company">Company:</label>
+        <input class="input mb-20" type="text" id="company" required>
+
+        <label class="label" for="comlocation">Company location:</label>
+        <input class="input mb-20" type="text" id="comlocation" required>
+
+        <label class="label" for="jobTitle">Job Title:</label>
+        <input class="input mb-20" type="text" id="jobTitle" required>
+
+        <label class="label" for="achv">Achievements:</label>
+        <input class="input mb-20" type="text" id="achv1" required>
+        <input class="input mb-20" type="text" id="achv2" required>
+        <input class="input mb-20" type="text" id="achv3" required>
+      </div>
+
+      <div id="expDetails2" class="form-group hideUnhide">
+        <label class="label" for="styear2">start Year:</label>
+        <input class="input mb-20" type="number" id="styear2">
+
+        <label class="label" for="endyear2">End Year:</label>
+        <input class="input mb-20" type="number" id="endyear2">
+
+        <label class="label" for="company2">Company:</label>
+        <input class="input mb-20" type="text" id="company2">
+
+        <label class="label" for="comlocation2">Company location:</label>
+        <input class="input mb-20" type="text" id="comlocation2">
+
+        <label class="label" for="jobTitle2">Job Title:</label>
+        <input class="input mb-20" type="text" id="jobTitle2">
+
+        <label class="label" for="achv2">Achievements:</label>
+        <input class="input mb-20" type="text" id="achv12">
+        <input class="input mb-20" type="text" id="achv22">
+        <input class="input mb-20" type="text" id="achv32">
+      </div>
+      <div class="AddBtn"><button type="button" id="addExp">Add More</button></div>
+
+      <br>
+      <hr style="margin-bottom: 20px;">
+      <div class="btnDiv"><input id="submitBtn" class="submit" type="submit"></div>
+  </form>
+
+</body>
+<script src="script.js"></script>
+
+</html>

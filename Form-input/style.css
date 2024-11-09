@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    /* background-color: #faf9f9; */
+    background-color: #2c2a2a;
+  }
+  
+  #heading {
+    font-size: 30px;
+    margin: 20px 0px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  form {
+    width: 50%;
+    padding: 2%;
+    border-radius: 16px;
+    /* background-color: white; */
+    background-color: #414141;
+    box-shadow: 0 4px 6px rgba(0, 0, 5, 0.3);
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    color: #f9a825; /* A warmer, more muted yellow */
+  }
+  
+  .label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #d68c00; /* A darker, more readable yellow */
+  }
+  
+  .input {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+  }
+  
+  .input:focus {
+    border: 2px solid #fbc02d; /* A vibrant yellow for focus state */
+    box-shadow: 0 0 0 5px rgba(214, 214, 212, 0.3);
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  .submit {
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 6px;
+    width: 60%;
+    transition: all 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #fbc02d; /* A vibrant yellow for hover state */
+  }
+  
+  .submit:active {
+    transform: scale(0.995);
+  }
+  
+  .btnDiv {
+    text-align: center;
+  }
+  
+  #submitBtn {
+    background: #fbc02d; /* A vibrant yellow for the button */
+    color: #333; /* Dark text for better contrast */
+    font-size: 22px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #submitBtn:hover {
+    background: #f9a825; /* A slightly darker yellow for hover state */
+  }
+  
+  .AddBtn{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .AddBtn button{
+    background: #fbc02d; /* A vibrant yellow for the button */
+    color: #333; /* Dark text for better contrast */
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .hideUnhide{
+    display: none;
+  }
